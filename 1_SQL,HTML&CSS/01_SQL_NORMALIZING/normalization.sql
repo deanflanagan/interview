@@ -49,6 +49,7 @@ VALUES ('Sales'),( 'IT'), ('Customer Care'),('Technical Support'), ('Accounting'
 INSERT INTO food_restrictions(restrictions)
 VALUES ('Vegan'),('Vegetarian'),('Nut Free'),('Lactose Intolerant');
 
+CREATE UNIQUE INDEX employee_idx ON employees (id);
 
 -- DROP TABLE employees;
 -- DROP TABLE bases;
