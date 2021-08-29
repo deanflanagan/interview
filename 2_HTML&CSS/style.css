@@ -1,0 +1,21 @@
+/*  change horizontal to vertical. Not sure what has to be changed on parent id yui_3_17_2_1_1630161355049_771 to align text and content below. */
+
+.sqs-col-4 {
+  height: 33.3333%;
+}
+
+/* changing icons. I did this in the DOM directly, see YouTube video. Don't worry the video is private and only viewable through this link! */
+
+/* https://youtu.be/9W1VQAubu9Q */
+
+/* change background colour */
+
+#core-values {
+  background-color: #d2b48c;
+}
+
+/* changing text color */
+
+#core-values .sqs-block-content > p {
+  color: white;
+}
