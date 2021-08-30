@@ -38,8 +38,7 @@ const employees = [
 ];
 
 var select = document.createElement("select");
-select.name = "pets";
-select.id = "pets";
+select.id = "anniversaries";
 
 for (const val of employees.sort((a, b) => a.name.localeCompare(b.name))) {
   var option = document.createElement("option");
@@ -49,7 +48,7 @@ for (const val of employees.sort((a, b) => a.name.localeCompare(b.name))) {
 }
 
 var label = document.createElement("label");
-label.innerHTML = "Choose your pets: ";
-label.htmlFor = "pets";
+label.innerHTML = "Choose your employee: ";
+label.htmlFor = "anniversaries";
 
 document.getElementById("container").appendChild(label).appendChild(select);
